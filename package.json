@@ -1,6 +1,8 @@
 {
   "name": "sveltekit-tooling",
   "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "description": "SvelteKit tooling: we look at 7 tools you can add to streamline your Svelte continuous integration (CI) and development processes.",
   "scripts": {
     "dev": "svelte-kit dev --port 3000",
     "build": "svelte-kit build",
@@ -29,5 +31,12 @@
     "svelte": "^3.47.0",
     "svelte-check": "^2.7.0"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodneylab/sveltekit-tooling"
+  },
+  "bugs": {
+    "url": "https://github.com/rodneylab/sveltekit-tooling/issues"
+  }
 }
