@@ -1,11 +1,11 @@
 <script>
 	import '@fontsource/montserrat';
 	import '@fontsource/hind';
+	import '$lib/styles/global.css';
 </script>
 
 <svelte:head>
 	<title>SvelteKit Tooling Example Repo</title>
-	<html lang="en-GB" />
 	<meta
 		name="description"
 		content="SvelteKit tooling: we look at 7 tools you can add to streamline your Svelte continuous integration (CI) and development processes."
@@ -20,27 +20,6 @@
 </main>
 
 <style>
-	:global(html) {
-		color: var(--colour-light);
-	}
-
-	:global(body) {
-		margin: 0;
-		font-family: Hind;
-		font-weight: var(--font-weight-normal);
-	}
-
-	:global(:root) {
-		--colour-theme: hsl(195 83% 38%); /* blue ncs */
-		--colour-theme-lighter-20: hsl(195 83% 30%);
-		--colour-light: hsl(42 100% 70%); /* orange yellow crayola */
-		--colour-dark: hsl(195 83% 16%); /* midnight green eagle green */
-		--colour-dark-lighter-20: hsl(195 83% 13%); /* black chocolate */
-
-		--font-weight-normal: 400;
-		--font-weight-bold: 700;
-	}
-
 	.container {
 		display: flex;
 		min-height: 100vh;
