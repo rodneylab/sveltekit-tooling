@@ -13,7 +13,11 @@
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/sveltekit-tooling)
 
-Example repo for configuring continuous integration (CI) tooling to work with SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on using Session storage with Svelte Kit" href="https://rodneylab.com/sveltekit-tooling/">post on SvelteKit Tooling</a>. If you have any questions, please drop a comment at the bottom of that page.
+Example repo for configuring continuous integration (CI) tooling to work with
+SvelteKit. The code accompanies the
+<a aria-label="Open Rodney Lab blog post on using Session storage with Svelte Kit" href="https://rodneylab.com/sveltekit-tooling/">post
+on SvelteKit Tooling</a>. If you have any questions, please drop a comment at
+the bottom of that page.
 
 ## Building and previewing the site
 
@@ -32,6 +36,9 @@ pnpm run dev
 pnpm run build
 ```
 
-> You can preview the built app with `pnpm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+> You can preview the built app with `pnpm run preview`, regardless of whether
+> you installed an adapter. This should _not_ be used to serve your app in
+> production.
 
-Feel free to jump into the [Rodney Lab matrix chat room](https://matrix.to/#/%23rodney:matrix.org).
+Feel free to jump into the
+[Rodney Lab matrix chat room](https://matrix.to/#/%23rodney:matrix.org).
