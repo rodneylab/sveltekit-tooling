@@ -5,6 +5,7 @@
 	"description": "SvelteKit tooling: we look at 7 tools you can add to streamline your Svelte continuous integration (CI) and development processes.",
 	"scripts": {
 		"dev": "vite dev",
+		"start": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
 		"format": "prettier --write --plugin=prettier-plugin-svelte .",
